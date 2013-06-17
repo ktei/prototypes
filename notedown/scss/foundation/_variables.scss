@@ -29,7 +29,7 @@ $em-base: 16px !default;
 $default-float: left;
 
 // $body-bg: #fff;
-// $body-font-color: #222;
+$body-font-color: #677;//#222;
 // $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 // $body-font-weight: normal;
 // $body-font-style: normal;
@@ -44,10 +44,10 @@ $default-float: left;
 
 // Colors
 
-// $primary-color: #2ba6cb;
+$primary-color: #2ca;//#2ba6cb;
 // $secondary-color: #e9e9e9;
 // $alert-color: #c60f13;
-// $success-color: #5da423;
+$success-color: #9d7; //#5da423;
 
 // Make sure border radius matches unless we want it different.
 
@@ -1204,11 +1204,13 @@ $default-float: left;
 
 // Background color for the top bar
 
-// $topbar-bg: #111 !default;
+$topbar-bg: #123 !default;//#111 !default;
+$topbar-divider-border-bottom: solid 1px #fff !default;
+$topbar-divider-border-top: solid 1px #fff !default;
 
 // Height and margin
 
-// $topbar-height: 45px;
+$topbar-height: 55px;
 // $topbar-margin-bottom: emCalc(30px);
 
 // Control Input height for top bar
@@ -1222,7 +1224,7 @@ $default-float: left;
 
 // Style the top bar dropdown elements
 
-// $topbar-dropdown-bg: #222;
+$topbar-dropdown-bg: #123;
 // $topbar-dropdown-link-color: #fff;
 // $topbar-dropdown-link-bg: lighten($topbar-bg, 5%);
 // $topbar-dropdown-toggle-size: 5px;
